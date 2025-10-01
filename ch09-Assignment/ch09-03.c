@@ -17,5 +17,6 @@ int main(void)
 	strcpy(str1, str2);
 	strcpy(str2, temp);
 	printf("str = %s, str2 = %s\n", str1, str2);
+
 	return 0;
 }
