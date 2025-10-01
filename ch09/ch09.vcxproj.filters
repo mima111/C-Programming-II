@@ -18,13 +18,37 @@
     <ClCompile Include="ch09-20250924.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\ch09-Assignment\ch09-03.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="ch09-01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ch09-02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09-03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09-04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09-05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09-06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09-07.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="strtok_s 토큰 분리 예제.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열의 앞 뒤 공백문자 제거.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09-08.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09-09.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
