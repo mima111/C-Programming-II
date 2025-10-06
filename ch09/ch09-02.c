@@ -1,3 +1,11 @@
+/*
+	학번: 202411236
+	이름: 윤우진
+	프로그램 명: ch09-02.c
+	프로그램 내용: 예제 9-2
+	날짜: 20250924
+*/
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
 
