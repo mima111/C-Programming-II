@@ -60,7 +60,7 @@ void print_one(STUDENT s, int idx)
         s.final, s.report, s.attend, s.total);
 }
 
-void display(int mode) // 1 이름, 2 학번, 3 학과, 4 총점
+void display(int mode) 
 {
     int n = get_count();
     if (n == 0) { printf("데이터 없음\n"); return; }

@@ -90,7 +90,7 @@ void modify_block()
     printf("변경 완료!\n\n");
 }
 
-void delete_block()    // 선택사항 (5번)
+void delete_block() 
 {
     FILE* fp, * temp;
     GROUP g;

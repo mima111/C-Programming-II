@@ -10,7 +10,7 @@ typedef struct {
     int  year;
 } PERSON;
 
-/* 1) person.bin 파일 생성 */
+
 void make_data(void)
 {
     FILE* fp;
@@ -33,7 +33,7 @@ void make_data(void)
     printf("📌 person.bin 파일 생성 완료\n\n");
 }
 
-/* 2) person.bin 파일 읽어서 이름 기준 삽입정렬 */
+
 void sort_data(void)
 {
     FILE* fp;
@@ -61,7 +61,7 @@ void sort_data(void)
     fread(d, sizeof(PERSON), total_block, fp);
     fclose(fp);
 
-    /* 삽입 정렬 */
+   
     for (j = 0; j < total_block; j++) {
         temp = d[j];
         i = j;
@@ -72,7 +72,7 @@ void sort_data(void)
         d[i] = temp;
     }
 
-    /* 출력 */
+    
     printf("📌 [이름으로 정렬하여 출력한 결과]\n");
     printf("%-10s %-15s %4s\n", "이름", "휴대번호", "생년");
     for (i = 0; i < total_block; i++) {
@@ -82,10 +82,10 @@ void sort_data(void)
     free(d);
 }
 
-/* 3) main */
+
 int main(void)
 {
-    make_data();   // person.bin 생성
-    sort_data();   // 정렬하여 출력
+    make_data();   
+    sort_data();   
     return 0;
 }
